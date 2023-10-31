@@ -1,21 +1,21 @@
-using System.Security.Cryptography.X509Certificates;
-using TMPro.EditorUtilities;
-using Unity.Mathematics;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UIElements;
-using static Unity.VisualScripting.Member;
 
 public class Movie : MonoBehaviour
 {
-    private Rigidbody2D _rb;
+    public Rigidbody2D _rb;
     [SerializeField] private float _speed;
     private float _move;
     private bool _flipRight = true;
     public Animator animator;
     private bool _jump = false;
     [SerializeField] private float _force = 3; 
-    
+    private Vector3 _respawnPoint;
+    private bool _killZoneTrigger = false;
+    [SerializeField] private Rigidbody2D _respawnPointRb;
+    private Vector2 _respawnPointPosition;
+    [SerializeField] private Rigidbody2D _checkPointRb;
+    private Vector2 _checkPointPosition;
+    public static float a = 1;
 
     private void Start()
     {
@@ -40,6 +40,8 @@ public class Movie : MonoBehaviour
 
     private void FixedUpdate()
     {
+        _checkPointPosition = new Vector2(_respawnPointRb.transform.position.x, _respawnPointRb.transform.position.y);
+        _respawnPointPosition = new Vector2 (_checkPointRb.transform.position.x, _checkPointRb.transform.position.y);
         _move = Input.GetAxis("Horizontal") * _speed;
         animator.SetFloat("_moveX", Mathf.Abs(_move));
 
@@ -56,4 +58,13 @@ public class Movie : MonoBehaviour
             _rb.AddForce(Vector2.up * _force, ForceMode2D.Impulse);
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if(collision.tag == "KillZone")
+        {
+            transform.position = _respawnPointPosition;
+        }
+    }
+
+
+
 }
