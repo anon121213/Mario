@@ -10,7 +10,6 @@ public class Movie : MonoBehaviour
     private bool _jump = false;
     [SerializeField] private float _force = 3; 
     private Vector3 _respawnPoint;
-    private bool _killZoneTrigger = false;
     [SerializeField] private Rigidbody2D _respawnPointRb;
     private Vector2 _respawnPointPosition;
     [SerializeField] private Rigidbody2D _checkPointRb;
