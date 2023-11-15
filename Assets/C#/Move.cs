@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Movie : MonoBehaviour
 {
-    public Rigidbody2D _rb;
+    private Rigidbody2D _rb;
     [SerializeField] private float _speed;
     private float _move;
     private bool _flipRight = true;
@@ -36,11 +36,11 @@ public class Movie : MonoBehaviour
             _jump = false;
         }
     }
-
+    
     private void FixedUpdate()
     {
-        _checkPointPosition = new Vector2(_respawnPointRb.transform.position.x, _respawnPointRb.transform.position.y);
-        _respawnPointPosition = new Vector2 (_checkPointRb.transform.position.x, _checkPointRb.transform.position.y);
+        _checkPointPosition = new Vector2(_checkPointRb.transform.position.x, _checkPointRb.transform.position.y);
+        _respawnPointPosition = new Vector2 (_respawnPointRb.transform.position.x, _respawnPointRb.transform.position.y);
         _move = Input.GetAxis("Horizontal") * _speed;
         animator.SetFloat("_moveX", Mathf.Abs(_move));
 
