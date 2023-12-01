@@ -9,6 +9,8 @@ TagManager:
   - RespawnPoint
   - CheckPoint
   - Coin
+  - Zone
+  - Target
   layers:
   - Default
   - TransparentFX

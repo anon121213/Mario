@@ -1,0 +1,1020 @@
+fileFormatVersion: 2
+guid: 863849a6df57ebc4c8e2f0051b24f519
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LOC1_PROPS_0
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 156
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a59351674c26940ab4bbd91fe6e5a6
+      internalID: -1381470580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 182
+        width: 120
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32687a10215091e4988a373352fbdfde
+      internalID: 1594711901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 195
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18406f5c80dc5514091ca6709b3703e9
+      internalID: 736660772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 195
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5e9663e4c3d66449206da21433f862
+      internalID: 1911099215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_4
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 195
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708e02fbdd2cc5a44bfd033294cc4385
+      internalID: -1261363717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_5
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 224
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbd1c6bbf453cb4fa5d1026d92ed5c7
+      internalID: -2077439945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_6
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 224
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5ab25bb82da954f90bcf4e1a733519
+      internalID: 912065161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_7
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 224
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da536b63e214c74e9d1d811a95e930f
+      internalID: 1644947464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_8
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 170
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f282edc02aef12e49bda422f58bcae45
+      internalID: -279767711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_9
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 192
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35632df6e200b7744bc8343f7645eecb
+      internalID: 185294042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_10
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 192
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b81d1ab92b496c448ceb8fa5c0638b1
+      internalID: -780063799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_11
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 192
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45917a10abf54f54ca187c2d7b90c1d4
+      internalID: -53036171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_12
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 192
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17714cdf6762b704cb7ea86b353cad98
+      internalID: -352571260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_13
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 192
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef978882bb8a4b43ba231d7fb7e13cb
+      internalID: 1253682656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_14
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 192
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e670529855790439565aa4080214f3
+      internalID: -1976149933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_15
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 192
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b38376e80b3e941926be6a5471a200
+      internalID: -769502349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_16
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 192
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13bee5a2106c4845bc716c697b1e016
+      internalID: -1601527595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 121
+        width: 95
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a3a9492eeedd94db7e49df047d1048
+      internalID: 1415867048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_18
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 137
+        width: 68
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e16cad7bb4c3714bb94250ab906e202
+      internalID: 1429313765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 137
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225309d40b2fc574aada68f0d2e4328b
+      internalID: -664066267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_20
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 147
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376a6dba62411db4096ef5df5732c9d0
+      internalID: -437608900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_21
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 147
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1037b1e62e07b84db2fd9501b010480
+      internalID: 713864999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_22
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 144
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9390fd64994104e49b6de9f137176a21
+      internalID: -1017602302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_23
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 160
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baeef669dc33dc94695f9b866e602783
+      internalID: 1888720410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_24
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 160
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a3df702eed0674297cc0254ff6feb9
+      internalID: -1659091096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_25
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 160
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5ba3a738b537746b6a64a5e919c4ad
+      internalID: 1630153223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_26
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 160
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ff5492c493b094f9a5831cefa531df
+      internalID: 1790301730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_27
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 160
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa5438a27b5c0a418b69ccfbc662062
+      internalID: -1210193510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_28
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 160
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c007654c65425574dbcde264aba0946e
+      internalID: -1940455223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_29
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 160
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d052744e3fd45264c8cd6039751c9969
+      internalID: 1139585617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_30
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 88
+        width: 98
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60ea23e0328f0e47980187efef71871
+      internalID: 1151886752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_31
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 90
+        width: 124
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ef8b673933e8d45afeb5ba97ed7b13
+      internalID: 564252067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_32
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 90
+        width: 80
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1201a01adf0b1144fab6c1fc1a715d19
+      internalID: -1231193070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_33
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 90
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48c314f7cba4aa4fa23622702ed14ff
+      internalID: 1363677631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_34
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 90
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0102b14fb978549941895a1d80fe3f
+      internalID: -1903757468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_35
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 90
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46681197e06a0b4e8f3a7014d7bd848
+      internalID: 333488268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_36
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 5
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9064b115820d6d9459bf1ce5e6c04104
+      internalID: -1805580718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_37
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 51
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3989d887c385147951c16867ea6a8c
+      internalID: -1090008282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_38
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 51
+        width: 89
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933079940d609be45ae28c0afaa58142
+      internalID: -1066742613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOC1_PROPS_39
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 51
+        width: 96
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5238d81ec70ea5649b6bcce8e98d77ee
+      internalID: -1664127522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LOC1_PROPS_0: -1381470580
+      LOC1_PROPS_1: 1594711901
+      LOC1_PROPS_10: -780063799
+      LOC1_PROPS_11: -53036171
+      LOC1_PROPS_12: -352571260
+      LOC1_PROPS_13: 1253682656
+      LOC1_PROPS_14: -1976149933
+      LOC1_PROPS_15: -769502349
+      LOC1_PROPS_16: -1601527595
+      LOC1_PROPS_17: 1415867048
+      LOC1_PROPS_18: 1429313765
+      LOC1_PROPS_19: -664066267
+      LOC1_PROPS_2: 736660772
+      LOC1_PROPS_20: -437608900
+      LOC1_PROPS_21: 713864999
+      LOC1_PROPS_22: -1017602302
+      LOC1_PROPS_23: 1888720410
+      LOC1_PROPS_24: -1659091096
+      LOC1_PROPS_25: 1630153223
+      LOC1_PROPS_26: 1790301730
+      LOC1_PROPS_27: -1210193510
+      LOC1_PROPS_28: -1940455223
+      LOC1_PROPS_29: 1139585617
+      LOC1_PROPS_3: 1911099215
+      LOC1_PROPS_30: 1151886752
+      LOC1_PROPS_31: 564252067
+      LOC1_PROPS_32: -1231193070
+      LOC1_PROPS_33: 1363677631
+      LOC1_PROPS_34: -1903757468
+      LOC1_PROPS_35: 333488268
+      LOC1_PROPS_36: -1805580718
+      LOC1_PROPS_37: -1090008282
+      LOC1_PROPS_38: -1066742613
+      LOC1_PROPS_39: -1664127522
+      LOC1_PROPS_4: -1261363717
+      LOC1_PROPS_5: -2077439945
+      LOC1_PROPS_6: 912065161
+      LOC1_PROPS_7: 1644947464
+      LOC1_PROPS_8: -279767711
+      LOC1_PROPS_9: 185294042
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
