@@ -8,6 +8,7 @@ public class kakashka : MonoBehaviour
 {
 
     [SerializeField] private float _speed = 1f;
+    [SerializeField] private float _damage = 1f;
 
     private Rigidbody2D _rb;
     public bool _right_Move = true;
@@ -26,7 +27,9 @@ public class kakashka : MonoBehaviour
         if (collision.gameObject.name == "Pipes")
         {
             _right_Move = !_right_Move;
-        }        
+        }
+        
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -34,6 +37,12 @@ public class kakashka : MonoBehaviour
         if (collision.gameObject.tag == "Target")
         {
             _right_Move = !_right_Move;
+        }
+
+        if (collision.gameObject.tag == "Player")
+        {
+            collision.GetComponent<health>().TakeDamage(_damage);
+
         }
     }
 
