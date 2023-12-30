@@ -1,63 +1,43 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class Platform_Move : MonoBehaviour
 {
 
-    [SerializeField] private Transform pos1, pos2;
-    [SerializeField] private Transform startPos;
+    [SerializeField] private Transform _pos1, _pos2;
+    [SerializeField] private Transform _startPos;
 
-    [SerializeField] private Vector3 nextPos;
+    [SerializeField] private Vector3 _nextPos;
 
-    [SerializeField] private float speed = 1.0f;    
+    [SerializeField] private float _speed = 1.0f;    
 
     private void Awake()
     {
 
-        nextPos = startPos.position;
+        _nextPos = _startPos.position;
 
     }
 
     private void FixedUpdate()
     {
         
-        transform.position = Vector3.MoveTowards(transform.position, nextPos, speed);
+        transform.position = Vector3.MoveTowards(transform.position, _nextPos, _speed);
 
-        if (transform.position == pos1.position)
+        if (transform.position == _pos1.position)
         {
 
-            nextPos = pos2.position;
-            transform.localScale = new Vector2(-0.62f, 0.5f);
+            _nextPos = _pos2.position;
 
         }
 
-        else if (transform.position == pos2.position)
+        else if (transform.position == _pos2.position)
         {
 
-            nextPos = pos1.position;
-            transform.localScale = new Vector2(0.62f, 0.5f);
+            _nextPos = _pos1.position;
 
         }
        
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag == "Player")
-        {
-            this.transform.parent = collision.transform;
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            this.transform.parent = null;
-        }
-    }
-
+    
 }

@@ -11,6 +11,8 @@ TagManager:
   - Coin
   - Zone
   - Target
+  - Enemy
+  - bulet
   layers:
   - Default
   - TransparentFX

@@ -6,20 +6,24 @@ using UnityEngine;
 
 public class kakashka : MonoBehaviour
 {
-
+    [SerializeField] private GameObject Coin;
     [SerializeField] private float _speed = 1f;
     [SerializeField] private float _damage = 1f;
+    [SerializeField] private float _forceDrop = 5f;
 
+    private int _hp = 3;
     private Rigidbody2D _rb;
-    public bool _right_Move = true;
+    private Rigidbody2D CoinRb;
+    
 
+    public bool _right_Move = true;
     
     public bool Flip = false;
 
     private void Awake()
     {
-        _rb = GetComponent<Rigidbody2D>();
-                
+        _rb = GetComponent<Rigidbody2D>();   
+        CoinRb = Coin.GetComponent<Rigidbody2D>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -28,7 +32,10 @@ public class kakashka : MonoBehaviour
         {
             _right_Move = !_right_Move;
         }
-        
+        else if (collision.gameObject.tag == "bulet")
+        {
+            _hp--;
+        }
         
     }
 
@@ -49,6 +56,11 @@ public class kakashka : MonoBehaviour
     private void FixedUpdate()
     {
         /*Flip = GetComponent<chek_block>()._flip;*/
+        if (_hp <= 0)
+        {
+            Destroy(gameObject);
+            DropCoin();
+        }
 
         if (_right_Move)
         {
@@ -71,4 +83,9 @@ public class kakashka : MonoBehaviour
 
     }
 
+    public void DropCoin()
+    {
+        Instantiate(Coin, transform.position, transform.rotation);
+        CoinRb.AddForce(new Vector2(_forceDrop, _forceDrop), ForceMode2D.Impulse);
+    }
 }
