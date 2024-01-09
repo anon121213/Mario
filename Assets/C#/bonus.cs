@@ -17,22 +17,26 @@ public class bonus : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Mario")
+        if (collision.gameObject.tag == "Player")
         {
             switch(_bonusName)
             {
                 case "coin":
+
                     int _coins = PlayerPrefs.GetInt("_coins");
                     PlayerPrefs.SetInt("_coins", _coins + 1);
                     _coinCount.text = (_coins + 1).ToString();
                     Destroy(gameObject);
+
                 break;
 
-                case "vodka":                    
+                case "vodka":     
+                    
                     Instantiate(_killa);
                     Destroy(gameObject);
                     Destroy(collision.gameObject);
                     Debug.Log("destroy");
+
                 break;
             }
         }

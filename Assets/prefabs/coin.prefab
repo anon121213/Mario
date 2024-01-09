@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6055082958694392095}
   - component: {fileID: 7923233802964010728}
   - component: {fileID: 4695921246620355229}
-  - component: {fileID: 813501331399425570}
+  - component: {fileID: 4035548013491531725}
   m_Layer: 0
   m_Name: coin
   m_TagString: Untagged
@@ -159,7 +159,7 @@ MonoBehaviour:
   _bonusName: coin
   _coinCount: {fileID: 0}
   _killa: {fileID: 0}
---- !u!50 &813501331399425570
+--- !u!50 &4035548013491531725
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
